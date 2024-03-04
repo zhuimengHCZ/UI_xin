@@ -1,0 +1,236 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "table_ui",
+      "value": "UI"
+    },
+    {
+      "name": "table_example",
+      "value": "Example"
+    },
+    {
+      "name": "Basic_components",
+      "value": "Basic components"
+    },
+    {
+      "name": "Blank",
+      "value": "Blank"
+    },
+    {
+      "name": "Button",
+      "value": "Button"
+    },
+    {
+      "name": "CalendarPicker",
+      "value": "CalendarPicker"
+    },
+    {
+      "name": "Checkbox",
+      "value": "Checkbox"
+    },
+    {
+      "name": "CheckboxGroup",
+      "value": "CheckboxGroup"
+    },
+    {
+      "name": "DataPanel",
+      "value": "DataPanel"
+    },
+    {
+      "name": "DatePicker",
+      "value": "DatePicker"
+    },
+    {
+      "name": "Divider",
+      "value": "Divider"
+    },
+    {
+      "name": "FormComponent",
+      "value": "FormComponent"
+    },
+    {
+      "name": "Gauge",
+      "value": "Gauge"
+    },
+    {
+      "name": "Image",
+      "value": "Image"
+    },
+    {
+      "name": "ImageAnimator",
+      "value": "ImageAnimator"
+    },
+    {
+      "name": "LoadingProgress",
+      "value": "LoadingProgress"
+    },
+    {
+      "name": "Marquee",
+      "value": "Marquee"
+    },
+    {
+      "name": "Menu",
+      "value": "Menu|MenuItem|MenuItemGroup"
+    },
+    {
+      "name": "Navigation",
+      "value": "Navigation"
+    },
+    {
+      "name": "NavRouter",
+      "value": "NavRouter"
+    },
+    {
+      "name": "NavDestination",
+      "value": "NavDestination"
+    },
+    {
+      "name": "PatternLock",
+      "value": "PatternLock"
+    },
+    {
+      "name": "PluginComponent",
+      "value": "PluginComponent:"
+    },
+    {
+      "name": "Progress",
+      "value": "Progress"
+    },
+    {
+      "name": "QRCode",
+      "value": "QRCode"
+    },
+    {
+      "name": "Radio",
+      "value": "Radio"
+    },
+    {
+      "name": "Rating",
+      "value": "Rating"
+    },
+    {
+      "name": "RemoteWindow",
+      "value": "RemoteWindow"
+    },
+    {
+      "name": "RichEditor",
+      "value": "RichEditor"
+    },
+    {
+      "name": "RichText",
+      "value": "RichText"
+    },
+    {
+      "name": "ScrollBar",
+      "value": "ScrollBar"
+    },
+    {
+      "name": "Search",
+      "value": "Search"
+    },
+    {
+      "name": "Select",
+      "value": "Select"
+    },
+    {
+      "name": "Slider",
+      "value": "Slider"
+    },
+    {
+      "name": "Span",
+      "value": "Span|ImageSpan"
+    },
+    {
+      "name": "Stepper",
+      "value": "Stepper"
+    },
+    {
+      "name": "StepperItem",
+      "value": "StepperItem"
+    },
+    {
+      "name": "Text",
+      "value": "Text"
+    },
+    {
+      "name": "TextArea",
+      "value": "TextArea"
+    },
+    {
+      "name": "TextClock",
+      "value": "TextClock"
+    },
+    {
+      "name": "TextInput",
+      "value": "TextInput"
+    },
+    {
+      "name": "TextPicker",
+      "value": "TextPicker"
+    },
+    {
+      "name": "TextTimer",
+      "value": "TextTimer"
+    },
+    {
+      "name": "TimePicker",
+      "value": "TimePicker"
+    },
+    {
+      "name": "Toggle",
+      "value": "Toggle"
+    },
+    {
+      "name": "Web",
+      "value": "Web"
+    },
+    {
+      "name": "XComponent",
+      "value": "XComponent"
+    },
+    {
+      "name": "Container_components",
+      "value": "Container components"
+    },
+    {
+      "name": "Badge",
+      "value": "Badge"
+    },
+    {
+      "name": "Column",
+      "value": "Column"
+    },
+    {
+      "name": "ColumnSplit",
+      "value": "ColumnSplit"
+    },
+    {
+      "name": "Example_Multimedia",
+      "value": "Example_Multimedia"
+    },
+    {
+      "name": "Example_Education",
+      "value": "Example_Education"
+    },
+    {
+      "name": "Example_Mall",
+      "value": "Example_Mall"
+    },
+    {
+      "name": "Example_TrafficNavigation",
+      "value": "Example_TrafficNavigation"
+    }
+  ]
+}

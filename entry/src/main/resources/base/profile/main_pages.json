@@ -1,0 +1,40 @@
+{
+  "src": [
+    "pages/SplashPage",
+    "pages/HomePage",
+    "pages/ui/BlankPage",
+    "pages/ui/ButtonPage",
+    "pages/ui/CalendarPickerPage",
+    "pages/ui/CheckboxPage",
+    "pages/ui/CheckboxGroupPage",
+    "pages/ui/DataPanelPage",
+    "pages/ui/DatePickerPage",
+    "pages/ui/DividerPage",
+    "pages/ui/FormComponentPage",
+    "pages/ui/GaugePage",
+    "pages/ui/ImageAnimatorPage",
+    "pages/ui/ImagePage",
+    "pages/ui/LoadingProgressPage",
+    "pages/ui/MarqueePage",
+    "pages/ui/MenuPage",
+    "pages/ui/PatternLockPage",
+    "pages/ui/ProgressPage",
+    "pages/ui/QRCodePage",
+    "pages/ui/RadioPage",
+    "pages/ui/RatingPage",
+    "pages/ui/RichTextPage",
+    "pages/ui/ScrollBarPage",
+    "pages/ui/SpanPage",
+    "pages/ui/TextPage",
+
+    "pages/ui/BadgePage",
+    "pages/ui/ColumnPage",
+    "pages/ui/ColumnSplitPage",
+    "pages/ui/CounterPage",
+    "pages/ui/EffectComponentPage",
+    "pages/ui/FlexPage",
+
+    "pages/ui/FormLinkPage",
+    "pages/ui/WaterFlowPage"
+  ]
+}

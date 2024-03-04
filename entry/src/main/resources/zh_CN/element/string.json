@@ -1,0 +1,236 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "UI"
+    },
+    {
+      "name": "table_ui",
+      "value": "组件"
+    },
+    {
+      "name": "table_example",
+      "value": "示例"
+    },
+    {
+      "name": "Basic_components",
+      "value": "基础组件"
+    },
+    {
+      "name": "Blank",
+      "value": "空白填充组件"
+    },
+    {
+      "name": "Button",
+      "value": "按钮组件"
+    },
+    {
+      "name": "CalendarPicker",
+      "value": "日历选择器组件"
+    },
+    {
+      "name": "Checkbox",
+      "value": "提供多选框组件"
+    },
+    {
+      "name": "CheckboxGroup",
+      "value": "多选框群组"
+    },
+    {
+      "name": "DataPanel",
+      "value": "数据面板组件"
+    },
+    {
+      "name": "DatePicker",
+      "value": "日期选择器组件"
+    },
+    {
+      "name": "Divider",
+      "value": "提供分隔器组件"
+    },
+    {
+      "name": "FormComponent",
+      "value": "提供卡片组件"
+    },
+    {
+      "name": "Gauge",
+      "value": "数据量规图表组件"
+    },
+    {
+      "name": "Image",
+      "value": "图片组件"
+    },
+    {
+      "name": "ImageAnimator",
+      "value": "提供帧动画组件来实现逐帧播放图片的能力，可以配置需要播放的图片列表，每张图片可以配置时长"
+    },
+    {
+      "name": "LoadingProgress",
+      "value": "用于显示加载动效的组件"
+    },
+    {
+      "name": "Marquee",
+      "value": "跑马灯组件"
+    },
+    {
+      "name": "Menu",
+      "value": "菜单"
+    },
+    {
+      "name": "Navigation",
+      "value": "Navigation组件"
+    },
+    {
+      "name": "NavRouter",
+      "value": "导航组件"
+    },
+    {
+      "name": "NavDestination",
+      "value": "作为子页面的根容器，用于显示Navigation的内容区:"
+    },
+    {
+      "name": "PatternLock",
+      "value": "图案密码锁组件"
+    },
+    {
+      "name": "PluginComponent",
+      "value": "提供外部应用组件嵌入式显示功能:"
+    },
+    {
+      "name": "Progress",
+      "value": "进度条组件"
+    },
+    {
+      "name": "QRCode",
+      "value": "用于显示单个二维码的组件"
+    },
+    {
+      "name": "Radio",
+      "value": "单选框"
+    },
+    {
+      "name": "Rating",
+      "value": "提供在给定范围内选择评分的组件"
+    },
+    {
+      "name": "RemoteWindow",
+      "value": "远程控制窗口组件"
+    },
+    {
+      "name": "RichEditor",
+      "value": "支持图文混排和文本交互式编辑的组件"
+    },
+    {
+      "name": "RichText",
+      "value": "富文本组件"
+    },
+    {
+      "name": "ScrollBar",
+      "value": "滚动条组件ScrollBar"
+    },
+    {
+      "name": "Search",
+      "value": "搜索框组件"
+    },
+    {
+      "name": "Select",
+      "value": "提供下拉选择菜单"
+    },
+    {
+      "name": "Slider",
+      "value": "滑动条组件"
+    },
+    {
+      "name": "Span",
+      "value": "作为Text组件和RichEditor组件的子组件，Span显示行内文本的组件,ImageSpan显示行内图片"
+    },
+    {
+      "name": "Stepper",
+      "value": "步骤导航器组件"
+    },
+    {
+      "name": "StepperItem",
+      "value": "用作Stepper组件的页面子组件"
+    },
+    {
+      "name": "Text",
+      "value": "显示一段文本的组件"
+    },
+    {
+      "name": "TextArea",
+      "value": "多行文本输入框组件"
+    },
+    {
+      "name": "TextClock",
+      "value": "TextClock组件通过文本将当前系统时间显示在设备上"
+    },
+    {
+      "name": "TextInput",
+      "value": "单行文本输入框组件"
+    },
+    {
+      "name": "TextPicker",
+      "value": "滑动选择文本内容的组件"
+    },
+    {
+      "name": "TextTimer",
+      "value": "通过文本显示计时信息并控制其计时器状态的组件"
+    },
+    {
+      "name": "TimePicker",
+      "value": "时间选择组件"
+    },
+    {
+      "name": "Toggle",
+      "value": "组件提供勾选框样式、状态按钮样式及开关样式"
+    },
+    {
+      "name": "Web",
+      "value": "提供具有网页显示能力的Web组件"
+    },
+    {
+      "name": "XComponent",
+      "value": "可用于EGL/OpenGLES和媒体数据写入，并显示在XComponent组件"
+    },
+    {
+      "name": "Container_components",
+      "value": "容器组件"
+    },
+    {
+      "name": "Badge",
+      "value": "Badge(可以附加在单个组件上用于信息标记的容器组件)"
+    },
+    {
+      "name": "Column",
+      "value": "Column(沿垂直方向布局的容器)"
+    },
+    {
+      "name": "ColumnSplit",
+      "value": "ColumnSplit(将子组件纵向布局)"
+    },
+    {
+      "name": "Example_Multimedia",
+      "value": "多媒体APP"
+    },
+    {
+      "name": "Example_Education",
+      "value": "教育APP"
+    },
+    {
+      "name": "Example_Mall",
+      "value": "商城APP"
+    },
+    {
+      "name": "Example_TrafficNavigation",
+      "value": "导航交通APP"
+    }
+  ]
+}
