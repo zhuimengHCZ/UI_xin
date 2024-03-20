@@ -1,5 +1,5 @@
 // xxx.ets
-import { AppBar } from '../../common/AppBar'
+import { AppBar } from '../../views/AppBar'
 import { Router } from '../../route/Router'
 
 @Entry
@@ -7,7 +7,7 @@ import { Router } from '../../route/Router'
 struct BadgePage {
   @Builder tabBuilder(index: number) {
     Column() {
-      AppBar({ title: Router.getTitle() })
+
       if (index === 2) {
         Badge({
           value: '',
@@ -52,6 +52,7 @@ struct BadgePage {
 
   build() {
     Column() {
+      AppBar({ title: Router.getTitle() })
       Text('dotsBadge').fontSize(18).fontColor('#182431').fontWeight(500).margin(24)
       Tabs() {
         TabContent()

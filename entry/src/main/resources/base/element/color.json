@@ -5,73 +5,52 @@
       "value": "#FFFFFF"
     },
     {
-      "name": "font_color_shallow",
-      "value": "#99000000"
-    },
-    {
-      "name": "font_color_dark",
-      "value": "#000000"
-    },
-    {
-      "name": "tab_bar_select",
-      "value": "#007DFF"
-    },
-    {
-      "name": "tab_bar_unselect",
-      "value": "#66182431"
-    },
-    {
-      "name": "tab_bar_divider",
+      "name": "divider",
       "value": "#33182431"
     },
     {
-      "name": "background_shallow_grey",
-      "value": "#F1F3F5"
+      "name": "six1",
+      "value": "#111111"
     },
     {
-      "name": "circle_pink",
-      "value": "#F7A4A4"
+      "name": "six2",
+      "value": "#222222"
     },
     {
-      "name": "circle_blue",
-      "value": "#4A90E2"
+      "name": "six3",
+      "value": "#333333"
     },
     {
-      "name": "tips_font_color",
-      "value": "#660d0d0d"
+      "name": "six4",
+      "value": "#444444"
     },
     {
-      "name": "source_code_font_color",
-      "value": "#0A8DF2"
+      "name": "six5",
+      "value": "#555555"
     },
     {
-      "name": "button_text_color",
-      "value": "#0d0d0d"
+      "name": "six6",
+      "value": "#666666"
     },
     {
-      "name": "button_background_color",
-      "value": "#E5E5E5"
+      "name": "six7",
+      "value": "#777777"
     },
     {
-      "name": "button_border_color",
-      "value": "#880d0d0d"
+      "name": "six8",
+      "value": "#888888"
     },
     {
-      "name": "divider_color",
-      "value": "#33182431"
+      "name": "six9",
+      "value": "#999999"
     },
     {
-      "name": "code_view_background",
-      "value": "#66182431"
+      "name": "f5f5f5",
+      "value": "#f5f5f5"
     },
     {
-      "name": "component_background_pink",
-      "value": "#22F7A4A4"
-    },
-    {
-      "name": "nightnode_color",
-      "value": "#EE343333"
+      "name": "f8f8f8",
+      "value": "#FFF8F8F8"
     }
-
   ]
 }

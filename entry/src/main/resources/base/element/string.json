@@ -13,6 +13,62 @@
       "value": "label"
     },
     {
+      "name": "apply_network_desc",
+      "value": "申请网络权限"
+    },
+    {
+      "name": "apply_read_media_desc",
+      "value": "申请多媒体读取权限"
+    },
+    {
+      "name": "loading",
+      "value": "Loading in..."
+    },
+    {
+      "name": "pull_down_refresh",
+      "value": "The drop-down refresh"
+    },
+    {
+      "name": "release_refresh",
+      "value": "Loosen the refresh"
+    },
+    {
+      "name": "refreshing",
+      "value": "Is refreshing"
+    },
+    {
+      "name": "refresh_success",
+      "value": "Refresh the success"
+    },
+    {
+      "name": "refresh_fail",
+      "value": "Refresh the failure"
+    },
+    {
+      "name": "press_retry",
+      "value": "点我重试"
+    },
+    {
+      "name": "load_error",
+      "value": "加载数据异常"
+    },
+    {
+      "name": "load_empty",
+      "value": "暂无数据"
+    },
+    {
+      "name": "load_more_empty",
+      "value": "No more data"
+    },
+    {
+      "name": "load_success",
+      "value": "加载成功"
+    },
+    {
+      "name": "net_error",
+      "value": "网络错误"
+    },
+    {
       "name": "table_ui",
       "value": "UI"
     },
@@ -21,216 +77,252 @@
       "value": "Example"
     },
     {
-      "name": "Basic_components",
-      "value": "Basic components"
-    },
-    {
       "name": "Blank",
-      "value": "Blank"
+      "value": "Blank(空白填充组件)"
     },
     {
       "name": "Button",
-      "value": "Button"
+      "value": "Button(按钮组件)"
     },
     {
       "name": "CalendarPicker",
-      "value": "CalendarPicker"
+      "value": "CalendarPicker(日历选择器组件)"
     },
     {
       "name": "Checkbox",
-      "value": "Checkbox"
+      "value": "Checkbox(多选框组件)"
     },
     {
       "name": "CheckboxGroup",
-      "value": "CheckboxGroup"
+      "value": "CheckboxGroup(多选框群组)"
     },
     {
       "name": "DataPanel",
-      "value": "DataPanel"
+      "value": "DataPanel(数据面板组件)"
     },
     {
       "name": "DatePicker",
-      "value": "DatePicker"
+      "value": "DatePicker(日期选择器组件)"
     },
     {
       "name": "Divider",
-      "value": "Divider"
+      "value": "Divider(提供分隔器组件)"
     },
     {
       "name": "FormComponent",
-      "value": "FormComponent"
+      "value": "FormComponent(提供卡片组件)"
     },
     {
       "name": "Gauge",
-      "value": "Gauge"
+      "value": "Gauge(数据量规图表组件)"
     },
     {
       "name": "Image",
-      "value": "Image"
+      "value": "Image(图片组件)"
     },
     {
       "name": "ImageAnimator",
-      "value": "ImageAnimator"
+      "value": "ImageAnimator(提供帧动画组件来实现逐帧播放图片的能力，可以配置需要播放的图片列表，每张图片可以配置时长)"
     },
     {
       "name": "LoadingProgress",
-      "value": "LoadingProgress"
+      "value": "LoadingProgress(加载动效的组件)"
     },
     {
       "name": "Marquee",
-      "value": "Marquee"
+      "value": "Marquee(跑马灯组件)"
     },
     {
       "name": "Menu",
-      "value": "Menu|MenuItem|MenuItemGroup"
+      "value": "Menu(菜单组件)"
     },
     {
       "name": "Navigation",
-      "value": "Navigation"
+      "value": "Navigation(根容器:展示页面的标题栏、工具栏、导航栏等)"
     },
     {
       "name": "NavRouter",
-      "value": "NavRouter"
-    },
-    {
-      "name": "NavDestination",
-      "value": "NavDestination"
+      "value": "NavRouter(导航组件)"
     },
     {
       "name": "PatternLock",
-      "value": "PatternLock"
+      "value": "PatternLock(图案密码锁组件)"
     },
     {
       "name": "PluginComponent",
-      "value": "PluginComponent:"
+      "value": "PluginComponent(提供外部应用组件嵌入式显示功能)"
     },
     {
       "name": "Progress",
-      "value": "Progress"
+      "value": "Progress(进度条组件)"
     },
     {
       "name": "QRCode",
-      "value": "QRCode"
+      "value": "QRCode(二维码组件)"
     },
     {
       "name": "Radio",
-      "value": "Radio"
+      "value": "Radio(单选框)"
     },
     {
       "name": "Rating",
-      "value": "Rating"
+      "value": "Rating(评分组件)"
     },
     {
       "name": "RemoteWindow",
-      "value": "RemoteWindow"
+      "value": "RemoteWindow(远程控制窗口组件)"
     },
     {
       "name": "RichEditor",
-      "value": "RichEditor"
+      "value": "RichEditor(支持图文混排和文本交互式编辑的组件)"
     },
     {
       "name": "RichText",
-      "value": "RichText"
+      "value": "RichText(富文本组件)"
     },
     {
       "name": "ScrollBar",
-      "value": "ScrollBar"
+      "value": "ScrollBar(滚动条组件ScrollBar)"
     },
     {
       "name": "Search",
-      "value": "Search"
+      "value": "Search(搜索框组件)"
     },
     {
       "name": "Select",
-      "value": "Select"
+      "value": "Select(提供下拉选择菜单)"
     },
     {
       "name": "Slider",
-      "value": "Slider"
+      "value": "Slider(滑动条组件)"
     },
     {
       "name": "Span",
-      "value": "Span|ImageSpan"
+      "value": "Span(作为Text组件和RichEditor组件的子组件，Span显示行内文本的组件,ImageSpan显示行内图片)"
     },
     {
       "name": "Stepper",
-      "value": "Stepper"
-    },
-    {
-      "name": "StepperItem",
-      "value": "StepperItem"
+      "value": "Stepper(步骤导航器组件)"
     },
     {
       "name": "Text",
-      "value": "Text"
+      "value": "Text(显示一段文本的组件)"
     },
     {
       "name": "TextArea",
-      "value": "TextArea"
+      "value": "TextArea(多行文本输入框组件)"
     },
     {
       "name": "TextClock",
-      "value": "TextClock"
+      "value": "TextClock(通过文本将当前系统时间显示在设备上)"
     },
     {
       "name": "TextInput",
-      "value": "TextInput"
+      "value": "TextInput(单行文本输入框组件)"
     },
     {
       "name": "TextPicker",
-      "value": "TextPicker"
+      "value": "TextPicker(滑动选择文本内容的组件)"
     },
     {
       "name": "TextTimer",
-      "value": "TextTimer"
+      "value": "TextTimer(通过文本显示计时信息并控制其计时器状态的组件)"
     },
     {
       "name": "TimePicker",
-      "value": "TimePicker"
+      "value": "TimePicker(时间选择组件)"
     },
     {
       "name": "Toggle",
-      "value": "Toggle"
+      "value": "Toggle(组件提供勾选框样式、状态按钮样式及开关样式)"
     },
     {
       "name": "Web",
-      "value": "Web"
+      "value": "Web(提供具有网页显示能力的Web组件)"
     },
     {
       "name": "XComponent",
-      "value": "XComponent"
-    },
-    {
-      "name": "Container_components",
-      "value": "Container components"
+      "value": "XComponent(可用于EGL/OpenGLES和媒体数据写入，并显示在XComponent组件)"
     },
     {
       "name": "Badge",
-      "value": "Badge"
+      "value": "Badge(可以附加在单个组件上用于信息标记的容器组件)"
     },
     {
       "name": "Column",
-      "value": "Column"
+      "value": "Column(沿垂直方向布局的容器)"
     },
     {
       "name": "ColumnSplit",
-      "value": "ColumnSplit"
+      "value": "ColumnSplit(将子组件纵向布局)"
     },
     {
-      "name": "Example_Multimedia",
-      "value": "Example_Multimedia"
+      "name": "Row",
+      "value": "Row(沿水平方向布局的容器)"
     },
     {
-      "name": "Example_Education",
-      "value": "Example_Education"
+      "name": "RowSplit",
+      "value": "RowSplit(将子组件横向布局)"
     },
     {
-      "name": "Example_Mall",
-      "value": "Example_Mall"
+      "name": "Flex",
+      "value": "Flex(以弹性方式布局子组件的容器组件)"
     },
     {
-      "name": "Example_TrafficNavigation",
-      "value": "Example_TrafficNavigation"
+      "name": "GridRow",
+      "value": "GridRow(栅格容器组件)"
+    },
+    {
+      "name": "Grid",
+      "value": "Grid(网格容器)"
+    },
+    {
+      "name": "Counter",
+      "value": "Counter(计数器组件)"
+    },
+    {
+      "name": "List",
+      "value": "List(列表组件)"
+    },
+    {
+      "name": "Navigator",
+      "value": "Navigator(路由容器组件，提供路由跳转能力)"
+    },
+    {
+      "name": "Panel",
+      "value": "Panel(可滑动面板)"
+    },
+    {
+      "name": "Refresh",
+      "value": "Refresh(页面下拉操作并显示刷新动效的容器组件)"
+    },
+    {
+      "name": "RelativeContainer",
+      "value": "RelativeContainer(相对布局组件)"
+    },
+    {
+      "name": "Scroll",
+      "value": "Scroll(可滚动的容器组件)"
+    },
+    {
+      "name": "SideBarContainer",
+      "value": "SideBarContainer(提供侧边栏可以显示和隐藏的侧边栏容器)"
+    },
+    {
+      "name": "Stack",
+      "value": "Stack(堆叠容器)"
+    },
+    {
+      "name": "Swiper",
+      "value": "Swiper(轮播组件)"
+    },
+    {
+      "name": "Tabs",
+      "value": "Tabs(Tab组件)"
+    },
+    {
+      "name": "WaterFlow",
+      "value": "WaterFlow(瀑布流容器)"
     }
   ]
 }

@@ -8,6 +8,25 @@
       "phone",
       "tablet"
     ],
+    "requestPermissions":[
+      {
+        "name" : "ohos.permission.INTERNET",
+        "reason": "$string:apply_network_desc",
+        "usedScene": {
+          "abilities": [
+            "FormAbility"
+          ],
+          //          "when":"inuse",
+          "when":"always"
+        }
+      },
+      {
+        "name" : "ohos.permission.READ_MEDIA",
+        "reason": "$string:apply_read_media_desc",
+
+      }
+
+    ],
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",
@@ -18,7 +37,7 @@
         "description": "$string:EntryAbility_desc",
         "icon": "$media:icon",
         "label": "$string:EntryAbility_label",
-        "startWindowIcon": "$media:startIcon",
+        "startWindowIcon": "$media:icon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
         "skills": [

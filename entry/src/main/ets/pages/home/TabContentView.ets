@@ -1,6 +1,8 @@
-import { AppBar } from '../../common/AppBar';
 import { Router } from '../../route/Router';
-import { Category } from '../../model/CategoricalType';
+import { TypeModel } from '../../model/TypeModel';
+import { Components_CATEGORY, Example_CATEGORY } from '../../data/CategoryData';
+import { DividerView } from '../view/DividerView';
+import showToast from '../../utils/ToastUtils';
 
 @Extend(Column)
 function ColumnStyle() {
@@ -13,32 +15,30 @@ function ColumnStyle() {
 @Preview
 @Component
 export struct TabContentView {
-  private child: Category[] = [];
-  private index: number = 0;
+  private index: number
 
   build() {
     Column() {
-      AppBar({ title: this.index === 0 ? '组件' : '示例', backButton: false })
       List() {
         if (this.index === 0) {
-          ForEach(this.child, (category: Category, oneIndex: number) => {
+          ForEach(Components_CATEGORY, (type: TypeModel, oneIndex: number) => {
             ListItem() {
               Column() {
-                Text(category.title)
+                Text(type.title)
                   .height(48)
                   .fontSize(14)
                   .width('100%')
                   .textAlign(TextAlign.Start)
                   .fontFamily('HarmonyHeiTi-Medium')
-                  .fontColor($r('app.color.font_color_shallow'))
+                  .fontColor(Color.Blue)
                   .padding({ bottom: 4, top: 4, left: 24 })
 
                 Column() {
-                  ForEach(category.child, (category: Category, twoIndex: number) => {
+                  ForEach(type.child, (type: TypeModel, twoIndex: number) => {
                     TwoView({
-                      category: category,
+                      type: type,
                       typeIndex: 0,
-                      idStr: `${this.index}${oneIndex}${twoIndex}`,
+                      idStr: `${this.tabIndex}${oneIndex}${twoIndex}`,
                     })
                   })
                 }
@@ -47,10 +47,10 @@ export struct TabContentView {
             }
           })
         } else {
-          ForEach(this.child, (category: Category, oneIndex: number) => {
+          ForEach(Example_CATEGORY, (type: TypeModel, oneIndex: number) => {
             ListItem() {
               Column() {
-                TwoView({ category: category,typeIndex: 0,idStr: `${this.index}${oneIndex}`, })
+                TwoView({ type: type, typeIndex: 0, idStr: `${this.tabIndex}${oneIndex}`, })
               }
               .ColumnStyle()
             }
@@ -64,34 +64,30 @@ export struct TabContentView {
 
       Blank()
 
-      Divider()
-        .height(0.75)
-        .width('100%')
-        .alignSelf(ItemAlign.Baseline)
-        .color($r('app.color.tab_bar_divider'))
+      DividerView()
     }
     .height('100%')
-    .padding({ top: 12 })
+    .padding({ top: 40 })
   }
 }
 
 @Component
 struct TwoView {
   @State isUnfold: boolean = false
-  private category: Category
+  private type: TypeModel
   private typeIndex: number
-  private idStr: string =""
+  private idStr: string = ""
 
   build() {
     Column() {
       Row() {
-        Text(this.category.title)
+        Text(this.type.title)
           .fontSize(16)
           .margin({ left: 16 + this.typeIndex * 32 })
           .fontFamily('HarmonyHeiTi-Medium')
-          .fontColor($r('app.color.font_color_dark'))
+          .fontColor(Color.Black)
         Blank()
-        if (this.category.child) {
+        if (this.type.child) {
           Image(this.isUnfold ? $r("app.media.ic_down") : $r("app.media.ic_right"))
             .width(this.isUnfold ? 24 : 12)
             .height(this.isUnfold ? 12 : 24)
@@ -101,22 +97,23 @@ struct TwoView {
       .height(56)
       .width('100%')
       .onClick(() => {
-        if (this.category.child === undefined) {
-          Router.push(this.category.url, { "title": this.category.title })
+        if (this.type.child === undefined) {
+          if(this.type.url){
+            Router.push(this.type.url, { "title": this.type.title })
+          }else {
+            showToast('正在赶来的路上…')
+          }
+
         } else {
           this.isUnfold = !this.isUnfold;
         }
       })
 
       if (this.isUnfold) {
-        ForEach(this.category.child, (category: Category) => {
+        ForEach(this.type.child, (type: TypeModel) => {
           Column() {
-            Divider()
-              .height(1)
-              .opacity(0.2)
-              .margin({ left: 42 + this.typeIndex * 32, right: 8 })
-              .color($r('app.color.font_color_dark'))
-            TwoView({ category: category, typeIndex: this.typeIndex + 1 })
+            DividerView({ marginValue: { left: 42 + this.typeIndex * 32, right: 8 } })
+            TwoView({ type: type, typeIndex: this.typeIndex + 1 })
           }
         }, item => JSON.stringify(item))
       }

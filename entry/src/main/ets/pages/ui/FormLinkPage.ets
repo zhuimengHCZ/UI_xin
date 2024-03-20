@@ -1,4 +1,4 @@
-import { AppBar } from '../../common/AppBar'
+import { AppBar } from '../../views/AppBar'
 import { Router } from '../../route/Router'
 
 @Entry

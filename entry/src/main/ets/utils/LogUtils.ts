@@ -25,6 +25,14 @@ class LogUtils {
   error(...args: string[]): void {
     hilog.error(this.domain, this.prefix, this.format, args);
   }
+
+  fatal(...args: string[]) {
+    hilog.fatal(this.domain, this.prefix, this.format, args)
+  }
+
+  isLoggable(level: hilog.LogLevel) {
+    hilog.isLoggable(this.domain, this.prefix, level)
+  }
 }
 
 export default new LogUtils('Sample_Xin');

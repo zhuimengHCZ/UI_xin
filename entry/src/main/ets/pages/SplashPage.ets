@@ -1,12 +1,12 @@
-import router from '@ohos.router'
 import { RoutePath } from '../route/RoutePath'
+import { Router } from '../route/Router'
 
 @Entry
 @Component
 struct SplashPage {
   aboutToAppear() {
     setTimeout(() => {
-      router.replaceUrl({ url: RoutePath.HomePage })
+      Router.replace(RoutePath.IndexPage)
     }, 2000)
   }
 
