@@ -2,7 +2,7 @@
 > 本项目是使用**DevEco Studio**工具，基于**OpenHarmony**开发的。非常适合刚学习**ArkTS**的**新人朋友**们学习和参考。
 
 <p align="center">
-  <a href="https://atomgit.com/zmhcz/UI_xin">
+  <a href="https://github.com/zhuimengHCZ/UI_xin">
     <img src="AppScope/resources/base/media/icon.png" alt="img" width="120" height="120">
   </a>
 
@@ -10,14 +10,14 @@
   <p align="center">
     欢迎测试、学习以及交流
     <br />
-    <a href="https://atomgit.com/zmhcz/UI_xin"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/zhuimengHCZ/UI_xin"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://atomgit.com/zmhcz/UI_xin">查看Demo</a>
+    <a href="https://github.com/zhuimengHCZ/UI_xin">查看Demo</a>
     ·
-    <a href="https://atomgit.com/zmhcz/UI_xin/issues">报告Bug</a>
+    <a href="https://github.com/zhuimengHCZ/UI_xin/issues">报告Bug</a>
     ·
-    <a href="https://atomgit.com/zmhcz/UI_xin/issues">提出新特性</a>
+    <a href="https://github.com/zhuimengHCZ/UI_xin/issues">提出新特性</a>
   </p>
 
 </p>
@@ -37,7 +37,7 @@
   克隆本仓库
 
   ```sh
-    git clone https://atomgit.com/zmhcz/UI_xin
+    git clone https://github.com/zhuimengHCZ/UI_xin
   ```
   * 文件目录说明
 
